@@ -7,7 +7,7 @@ import { matchSorter } from "match-sorter";
 import sortBy from "sort-by";
 import invariant from "tiny-invariant";
 
-type ContactMutation = {
+export type ContactMutation = {
   id?: string;
   first?: string;
   last?: string;

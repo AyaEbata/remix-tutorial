@@ -1,3 +1,13 @@
+# Remixのチュートリアル
+ソースコードにメモしながら以下をやっていくよ！  
+https://remix.run/docs/en/main/start/tutorial
+
+## 構成
+- Remix
+- React
+- Vite
+
+---
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
