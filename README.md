@@ -2,10 +2,14 @@
 ソースコードにメモしながら以下をやっていくよ！  
 https://remix.run/docs/en/main/start/tutorial
 
+ついでに以下を参考にしてThree.jsもやってみる！  
+https://zenn.dev/yuichkun/articles/minimal-three-js-setup
+
 ## 構成
 - Remix
 - React
 - Vite
+- Three.js
 
 ---
 # Welcome to Remix!

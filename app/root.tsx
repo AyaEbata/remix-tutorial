@@ -12,6 +12,7 @@ import { LinksFunction, LoaderFunctionArgs, redirect } from "@remix-run/node";
 import appStylesHref from "./app.css?url";
 import { ContactMutation, createEmptyContact, getContacts } from "./data";
 import { useEffect, useState } from "react";
+import { Canvas } from "@react-three/fiber";
 
 // CSSファイルをJavaScriptモジュールに直接インポート
 // ここで設定したものは<Links />で呼び出せる
@@ -91,7 +92,6 @@ export default function App() {
               {/* URLと入力の状態を同期するためにdefaultValueを追加 */}
               <input
                 id="q"
-                defaultValue={q || ""}
                 value={query}
                 aria-label="Search contacts"
                 placeholder="Search"
@@ -172,6 +172,10 @@ export default function App() {
           navigation.state === "loading" && !searching ? "loading" : ""
         }>
           <Outlet />
+
+          <Form action="threejs" className="mt-4">
+            <button>Three.js</button>
+          </Form>
         </div>
 
         <ScrollRestoration />
