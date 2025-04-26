@@ -5,11 +5,20 @@ https://remix.run/docs/en/main/start/tutorial
 ついでに以下を参考にしてThree.jsもやってみる！  
 https://zenn.dev/yuichkun/articles/minimal-three-js-setup
 
-## 構成
+ついでについでにGraphQLもRemixに入れ込んでみる！  
+https://www.apollographql.com/docs/apollo-server/getting-started  
+https://www.apollographql.com/docs/react/get-started
+
+## 使用技術
 - Remix
 - React
 - Vite
 - Three.js
+- GraphQL
+
+## 構成
+remix-tutorial/   … 直下にRemixのチュートリアルとThree.jsの練習とGraphQL  
+└ graphql-server/ … GraphQL Server（めんどくさいのでここに置いちゃう）
 
 ---
 # Welcome to Remix!

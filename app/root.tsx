@@ -176,6 +176,10 @@ export default function App() {
           <Form action="threejs" className="mt-4">
             <button>Three.js</button>
           </Form>
+
+          <Form action="graphql" className="mt-2">
+            <button>GraphQL</button>
+          </Form>
         </div>
 
         <ScrollRestoration />

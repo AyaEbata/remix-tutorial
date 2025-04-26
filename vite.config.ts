@@ -9,4 +9,7 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
+  ssr: {
+    noExternal: ["@apollo/client"]
+  },
 });
